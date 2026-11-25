@@ -1,0 +1,22 @@
+# Generated binaries and UI previews
+*.exe
+*.pdb
+*.tmp
+outputs/
+work/*.ico
+work/*.wav
+work/*-icon*.png
+work/*-preview.png
+work/CaptureUiProbe.cs
+work/performance/
+work/uninstall-tests-*/
+
+# Editor files
+.vs/
+.idea/
+
+# Signing credentials must never be stored in the repository
+*.pfx
+*.p12
+*.key
+.env
