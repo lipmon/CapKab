@@ -18,7 +18,14 @@ A light, free screenshot tool for Windows with Thai and English interface. No ac
 
 Download `CapKab-Setup.exe` from the [Releases](../../releases) page and run it. The program installs for the current user only (no administrator rights needed) in `%LOCALAPPDATA%\CapKab`.
 
-Windows 11 with **Smart App Control** turned on blocks programs that are not code-signed. CapKab is not signed yet. Either turn Smart App Control off, or build the program yourself from this source (see below).
+### If Windows shows a warning
+
+CapKab is not code-signed yet (signing certificates cost money), so Windows may warn you:
+
+- **"Windows protected your PC" (SmartScreen):** click **More info**, then **Run anyway**.
+- **Blocked with no button to continue (Smart App Control):** Windows 11 with Smart App Control turned on blocks every unsigned program. Turn it off in Windows Security → App & browser control → Smart App Control settings. Note that it cannot be turned back on without reinstalling Windows. If you prefer to keep it on, CapKab cannot run (a copy you build yourself is unsigned too and is blocked the same way); the source is here so you can read it first.
+
+The `SHA-256` of each installer is listed on its Release page so you can check the download.
 
 ## Build from source
 
